@@ -1,0 +1,103 @@
+@media (min-width: 1170px) {
+  .section-title .section-diamond {
+    left: 49%;
+  }
+  .homepage-slider .text-section .title {
+    margin-top: 90px;
+    font-size: 50px;
+    line-height: 51px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  #mainNav ul li a {
+    padding: 5px 4px;
+  }
+  .social-icons li .social {
+    margin: 0 10px 3px;
+  }
+  .homepage-slider .text-section .title {
+    padding-bottom: 20px;
+    margin-top: 25px;
+  }
+  .homepage-slider .text-section .sub-title {
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+  .homepage-slider .text-section .homepage-slider-button {
+    margin: 15px 0;
+  }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  header {
+    position: relative;
+    text-align: center;
+  }
+  .social-icons {
+    margin-top: 5px;
+    float: none;
+    display: inline-block;
+  }
+  .homepage-slider li {
+    overflow: hidden;
+  }
+  .homepage-slider li img {
+    height: 80%;
+    width: auto;
+    max-width: none;
+  }
+  .section-title .section-diamond {
+    left: 45.6%;
+  }
+  .scrollable-container {
+    top: 0px;
+  }
+  .portfolio-details .portfolio-box {
+    width: 100%;
+  }
+  #portfolioSlider .flex-viewport {
+    overflow: hidden !important;
+  }
+  .team-container .team-member {
+    width: 100%;
+  }
+  .team-container .team-member figure {
+    margin-top: 35px;
+  }
+  .team-container .team-member .social-links {
+    margin-bottom: 5px;
+  }
+  .testimonials-box .flex-control-nav {
+    margin-top: 10px;
+  }
+  .container > .row {
+    padding: 0 15px;
+  }
+  .portfolio-details .portfolio-menu ul li a {
+    padding: 3px 10px 15px;
+  }
+  footer p {
+    text-align: center;
+  }
+  .custom-form input[type="text"],
+  .custom-form input[type="email"],
+  .custom-form textarea {
+    min-height: 55px;
+  }
+  .section-blog .inner {
+    border: none;
+  }
+  .section-blog .inner-article {
+    padding-right: 0;
+  }
+  .widget form .input-append input {
+    min-height: 49px;
+  }
+}
+@media (min-width: 200px) and (max-width: 340px) {
+  body {
+    padding: 0;
+  }
+}
