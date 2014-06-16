@@ -46,7 +46,7 @@
   .homepage-slider li img {
     height: 80%;
     width: auto;
-    max-width: none;
+    max-width: 767px;
   }
   .section-title .section-diamond {
     left: 45.6%;

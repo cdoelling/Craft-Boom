@@ -153,8 +153,7 @@ header nav {
 }
 .homepage-slider {
   position: relative;
-  height: 400px;
-  overflow: hidden;
+  max-height: 400px;
 }
 .homepage-slider li {
   text-align: center;
@@ -162,7 +161,6 @@ header nav {
   background-repeat: none;
 }
 
-.........................................................
 .homepage-slider .text-section {
   position: absolute;
   top: 0px;
