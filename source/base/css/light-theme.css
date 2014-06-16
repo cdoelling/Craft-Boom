@@ -1732,13 +1732,18 @@ footer p {
     padding: 0;
   }
 }
+
+
+
 .content-container {
-  background-color: #010101;
+  max-width: 1330px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .pix-container {
-  float: right;
   margin-top:40px;
+float: right;
 
 }
 
@@ -1747,22 +1752,25 @@ footer p {
 
 }
 
+
 .text-container {
   background-color: #f5f5f5;
-  position: fixed;
-  margin-top: 15%;
   border-radius: 20px;
   border-color: #fff;
-  padding: 20px;
-  max-width: 400px;
-
+  padding: 15px;
+  position: fixed;
+  margin-top: 300px;
+  max-width: 330px;
+  opacity: .85;
 }
 
-.text {
-  
+.text p {
+    text-align: center;
+    opacity: 1;
 }
 
-.payment {
-  text-align: center;
-}
+
+
+
+
 
