@@ -3,7 +3,7 @@
 <head>
     <title>Craft Boom</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/craftboom-favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel=stylesheet href="css/bootstrap-responsive.css">
     <link rel="stylesheet" type="text/css" href="css/flexslider.css">
@@ -18,43 +18,98 @@
 
 <body>
 
-<div class="pix-container">
-    <div class="photo">
-        <img src="img/caddy1.jpg">
-    </div>
-    <div class="photo">
-        <img src="img/caddy2.jpg">
-    </div>
-    <div class="photo">
-        <img src="img/caddy3.jpg">
-    </div>
-    <div class="photo">
-        <img src="img/caddy4.jpg">
-    </div>
-    <div class="photo">
-        <img src="img/caddy5.jpg">
-    </div>              
-  
-</div> 
 
-<div class="text-container">
+<header>
+        <div class='container'>
+            <div class='row'>
+                <div class='span3'>
+                    <!--<figure class='logo'>
+                        <a href="/">
+                            <img src="img/logo.png" alt=""/>
+                        </a>
+                    </figure>-->
+                </div>
+                <nav class='span6'>
+                    <div id='mainNav'>
+                        <ul class='nav'>
+                            <li class='active'><a data-target="#home" href="index-light.html#home">Home</a></li>
+                            <li><a data-target="#portfolio" href="index-light.html#portfolio">Applications</a></li>
+                            <li><a data-target="#products" href="products.html">Products</a></li>
+                            <li><a data-target="#about" href="index-light.html#about">About Us</a></li>
+                            <li><a data-target="#blog" href="index-light.html#blog">Blog</a></li>
+                            <li><a data-target="#contact" href="index-light.html#contact">Contact</a></li>
+                        </ul>
+                        <div class='active-indicator hidden-phone'></div>
+                    </div>
+                </nav>
+                <div class='span3'>
+                    <ul class='social-icons'>
+                        <li><a href="https://www.facebook.com/craftedhere" target="_blank" class='social facebook'></a></li>
+                        <li><a href="https://twitter.com/craftedhere" target="_blank" class='social twitter'></a></li>
+                        <li><a href="https://plus.google.com/+CraftedhereUs/posts" target="_blank" class='social googleplus'></a></li>
+                        <li><a href="http://www.pinterest.com/craftedhere/" target="_blank"class='social pinterest'></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <div class="text">
-        <h1>This is the text</h1>
-        <h4>This is the more info text about the caddy</h4>
-    </div>
 
-    <div class="payment">
-        <h3>Paypal goes here</h3>
-    </div>
+<div class="content-container">
+
+        <div class="pix-container">
+            <div class="photo">
+                <img src="img/caddy1.jpg">
+            </div>
+            <div class="photo">
+                <img src="img/caddy2.jpg">
+            </div>
+            <div class="photo">
+                <img src="img/caddy3.jpg">
+            </div>
+            <div class="photo">
+                <img src="img/caddy4.jpg">
+            </div>
+            <div class="photo">
+                <img src="img/caddy5.jpg">
+            </div>              
+        </div> 
+
+        <div class="text-container">
+
+            <div class="text">
+                <h2>CraftedHere</h2> <h2>Brew Caddys</h2>
+                <p>Our Brew Caddys are a great way to enjoy your craft on the go.</p> <p>Whether at festivals, concerts, back patios or just need both hands. </p> <p>Comes with a dual hook laynard, cut from solid steel that also has a bottle opener.  Makes for a great gift to any craft consumer.</p>
+            </div>
+
+            <div class="payment">
+                <!--paypal goodness-->
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="YA77ZZUYT97XW">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Quantity">Quantity</td></tr><tr><td><select name="os0">
+                        <option value="1 Brew Caddy">1 Brew Caddy $12.00 USD</option>
+                        <option value="2 Brew Caddies">2 Brew Caddies $20.00 USD</option>
+                        <option value="3 Brew Caddies">3 Brew Caddies $30.00 USD</option>
+                        <option value="4 Brew Caddies">4 Brew Caddies $40.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+            </div>
+
+        </div>
+
+
+        <div class="bottom-arrow">
+            <!--Elemnets of the js arrow that disappears-->
+        </div>
 
 </div>
-
-<div class="bottom-arrow">
-    <!--Elemnets of the js arrow that disappears-->
-</div>
-
-
 
 
 </body>
