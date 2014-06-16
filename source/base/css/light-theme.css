@@ -38,6 +38,7 @@ header nav {
   left: 0;
   width: 100%;
   float: left;
+  height: 100%;
 }
 .logo {
   display: inline-block;
@@ -157,8 +158,11 @@ header nav {
 }
 .homepage-slider li {
   text-align: center;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: none;
 }
+
+.........................................................
 .homepage-slider .text-section {
   position: absolute;
   top: 0px;
@@ -306,12 +310,18 @@ header nav {
 .section-services .services-box:hover .services-diamond .services-tail {
   height: 75px;
 }
+
 .section-services .services-box:hover .services-diamond .content {
   background-color: #a0ce4e;
 }
 .section-services .services-box:hover .services-diamond .bottom-diamond {
   background-color: #a0ce4e;
 }
+
+
+
+
+
 .services-diamond {
   width: 141px;
   height: 200px;
